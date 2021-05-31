@@ -141,4 +141,20 @@ body{
   /******************
   fin de desplegable
   ******************/
+  /*efecto zoom*/
+
+.zoom{
+
+  -webkit-transition: all .1s ease-in-out;
+  -moz-transition: all .1s ease-in-out;
+  -o-transition: all .1s ease-in-out;
+  -ms-transition: all .1s ease-in-out;
+
+}
+
+.zoom:hover{
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
   
+}
+/*fin efecto zoom*/
