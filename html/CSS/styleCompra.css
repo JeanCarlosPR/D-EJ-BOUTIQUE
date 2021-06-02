@@ -1,0 +1,91 @@
+::selection
+{
+	background: #ec1c44;
+	color: #FFFFFF;
+}
+body{
+	color:#fff;
+}
+
+.altura{
+    height: 150px;
+}
+
+.slider-4{
+	height: 80vh;
+	text-align: center;
+}
+.slider-4{
+	background: white;
+}
+.footer{
+	background: #444;
+	color:#fff;
+	text-align: center;
+	padding: 10px;
+}
+.car-price{
+    position: absolute;
+    top: 77px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.q{
+    color: red;
+}
+.slider-3{
+	height: 150vh;
+  
+}
+
+.altura{
+    height: 100px;
+ 
+}
+/************
+    zoom
+************/
+
+.zoom{
+
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+
+}
+
+.zoom:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    
+}
+
+#d{
+    border-top: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(175, 175, 175);
+    border-left: 1px solid rgb(175, 175, 175);
+    top: 100px;
+  }
+
+
+
+.altura{
+    height: 100px;
+}
+#cv{
+    color: black;
+}
+#xx{
+    top: 200px;
+}
+#xm{
+    top: 207px;
+}
+#xb{
+    top: 230px;
+}
