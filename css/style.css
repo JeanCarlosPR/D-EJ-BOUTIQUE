@@ -22,7 +22,8 @@ body{
 
 }
 .slider-4{
-	background: white;
+	background-image: url(../img/tienda-ropa-moda-moderna-borrosa-abstracta-centro-comercial-fondo-concepto-compras-ropa_47840-1245.jpg);
+  background-size: cover;
 }
 .footer{
 	background: #444;
@@ -206,3 +207,12 @@ figure{
      }
 
 /* fin de Barra de texto en img.*/
+/***************************
+COLOR DE LETRAS CONTACTANOS
+***************************/
+#c{
+  color: white;
+}
+/**********************************
+FIN DE COLOR DE LETRAS CONTACTANOS
+**********************************/
