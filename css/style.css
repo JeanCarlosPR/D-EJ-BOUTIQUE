@@ -31,6 +31,9 @@ body{
 	text-align: center;
 	padding: 10px;
 }
+#car{
+  color: #fff;
+}
 /* VARIEDADES */
 .altura{
     height: 400px;
