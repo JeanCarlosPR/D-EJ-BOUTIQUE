@@ -7,6 +7,20 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>D' E&J BOUTIQUE</title>
 
+    <link rel="stylesheet" href="flexslider.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" charset="utf-8">
+    $(window).load(function() {
+      $('.flexslider').flexslider({
+        touch: true,
+        pauseOnAction: false,
+        pauseOnHover: false,
+      });
+    });
+  </script>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap-flex.css">
     <link rel="stylesheet" href="css/style.css">
@@ -33,10 +47,9 @@
        <!-- menu desplegable -->
        <ul>
         <li><a id="v" href="#sec-6">Camisetas</a></li>
-        <li><a id="v" href="#sec-7">Camisas de polo</a></li>
-        <li><a id="v" href="#sec-7">Suéteres y cárdigans</a></li>
         <li><a id="v" href="#sec-7">Pantalones</a></li>
-        <li><a id="v" href="#sec-7">Shorts y Bermudas</a></li>
+        <li><a id="v" href="#sec-7">Camisas</a></li>
+        <li><a id="v" href="#sec-7">Calsados</a></li>
         </ul> 
         </li>
         <!-- fin menu desplegable -->
@@ -47,9 +60,8 @@
           <ul>
             <li><a id="v" href="#sec-6">Vestidos</a></li>
             <li><a id="v" href="#sec-7">Tops y camisetas</a></li>
-            <li><a id="v" href="#sec-7">Suéteres y cárdigans</a></li>
             <li><a id="v" href="#sec-7">Pantalones</a></li>
-            <li><a id="v" href="#sec-7">Faldas</a></li>
+            <li><a id="v" href="#sec-7">Calsados</a></li>
             </ul> 
             </li>
             <!-- fin menu desplegable -->
@@ -65,16 +77,30 @@
 <!-- FIN MENU -->
 
     
-    <!-- SECCIÓN 1 -->
-    <div class="container-fluid">
-      <div class="row flex-items-xs-center slider-1 flex-items-xs-middle" id="sec-1" >
-        <div class="row">
-          <div class="col-xs-12"><h1>Bienvenidos a mi sitio web</h1></div>
-          <div class="col-xs-12"><h3>Sección 1</h3></div>
-        </div>
+ <!-- CARROUSEL -->
+ <div class="container-fluid">
+  <div class="row flex-items-xs-center slider-1 flex-items-xs-middle" id="sec-1" >
+    <div class="row">
+      <div class="flexslider">
+        <ul class="slides">
+          <li>
+            <img src="img/polo1.jpg" alt="">
+            <section class="flex-caption">
+              <p>LOREM IPSUM 1</p>
+            </section>
+          </li>
+          <li>
+            <img src="img/polo2.jpg" alt="">
+            <section class="flex-caption">
+              <p>LOREM IPSUM 2</p>
+            </section>
+          </li>
+        </ul>
       </div>
     </div>
-    <!-- FIN SECCIÓN -->
+  </div>
+</div>
+<!-- FIN CARRUCEL -->
 
   <!-- SECCIÓN 2 -->
   <div class="container-fluid">
@@ -115,7 +141,7 @@
                   <div class="img-box">
                 <img src="img/4.jpg" alt="">
                   </div>
-                <a href="#" class="zoom">comprar</a></div>
+                <a href="html/accesorios.html" class="zoom">comprar</a></div>
                     <div class="texto2">Accesorios</div>
           </figure>
             </span>
