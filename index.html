@@ -25,6 +25,7 @@
     <link rel="stylesheet" href="css/bootstrap-flex.css">
     <link rel="stylesheet" href="css/style.css">
     
+    <link rel="icon" type="img/png" href="img/MINI.png"/>
   </head>
   <body>
     
@@ -47,7 +48,7 @@
        <!-- menu desplegable -->
        <ul>
         <li><a id="v" href="#sec-6">Camisetas</a></li>
-        <li><a id="v" href="#sec-7">Pantalones</a></li>
+        <li><a id="v" href="#">Pantalones</a></li>
         <li><a id="v" href="#sec-7">Camisas</a></li>
         <li><a id="v" href="#sec-7">Calsados</a></li>
         </ul> 
@@ -58,10 +59,10 @@
       <li><a data-scroll href="html/mujer.html" class="btn" role="button" aria-pressed="true" id="v">Mujer</a>
           <!-- menu desplegable -->
           <ul>
-            <li><a id="v" href="#sec-6">Vestidos</a></li>
+            <li><a id="v" href="#">Vestidos</a></li>
             <li><a id="v" href="#sec-7">Tops y camisetas</a></li>
-            <li><a id="v" href="#sec-7">Pantalones</a></li>
-            <li><a id="v" href="#sec-7">Calsados</a></li>
+            <li><a id="v" href="#">Pantalones</a></li>
+            <li><a id="v" href="#">Calsados</a></li>
             </ul> 
             </li>
             <!-- fin menu desplegable -->
@@ -86,13 +87,26 @@
           <li>
             <img src="img/polo1.jpg" alt="">
             <section class="flex-caption">
-              <p>LOREM IPSUM 1</p>
+              <p id="car">CAMISETA BÁSICA DE CUELLO REDONDO CALVIN KLEIN AZUL MARINO</p>
             </section>
           </li>
           <li>
-            <img src="img/polo2.jpg" alt="">
+            <img src="img/POLO.jpg" alt="">
             <section class="flex-caption">
-              <p>LOREM IPSUM 2</p>
+              <p id="car">ZAPATILLAS RALPH LAUREN TRAIN 150 NEGRAS</p>
+            </section>
+          </li>
+          <li>
+            <img src="img/TOMMY.jpg" alt="">
+            <section class="flex-caption">
+              <p >VESTIDO AZUL TOMMY HILFIGER ELANA</p>
+            </section>
+          </li>
+          <li>
+            <img src="img/STOMMY.jpg" alt="">
+            <section class="flex-caption">
+              <p id="car">SANDALIAS DE CUÑA TOMMY HILFIGER AZUL MARINO</p>
+              <p>LOREM</p>
             </section>
           </li>
         </ul>
@@ -285,16 +299,43 @@
   <!-- FIN SECCIÓN -->
 
 
-    <!-- SECCIÓN 4 -->
-    <div class="container-fluid">
-      <div class="row flex-items-xs-center slider-4 flex-items-xs-middle" id="sec-4" >
-        <div class="row">
-          <div class="col-xs-12"><h1>Suscríbete en Youtube (bluuweb)</h1></div>
-          <div class="col-xs-12"><h3>Sección 4</h3></div>
-        </div>
-      </div>
-    </div>
-    <!-- FIN SECCIÓN -->
+         <!-- SECCIÓN 4 -->
+         <div class="container-fluid">
+          <div class="row flex-items-xs-center slider-4 flex-items-xs-middle" id="sec-4" >
+            <div class="row">
+              <div class="col-xs-12">
+                    <div id="c" class="well" style="margin-top: 10%;">
+                    <h3>contactanos</h3>
+                    <form role="form" id="contactForm" data-toggle="validator" class="shake">
+                        <div class="row">
+                            <div id="c" class="form-group col-sm-6">
+                                <label for="name" class="h4">Nombre</label>
+                                <input type="text" class="form-control" id="name" placeholder="Introducir Nombre" required data-error="NEW ERROR MESSAGE">
+                                <div class="help-block with-errors"></div>
+                            </div>
+                            <div id="c" class="form-group col-sm-6">
+                                <label for="email" class="h4">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Introducir Email" required>
+                                <div class="help-block with-errors"></div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label id="c" for="message" class="h4 ">Mensage</label>
+                            <textarea id="message" class="form-control" rows="5" placeholder="Escribe tu Mensage" required></textarea>
+                            <div class="help-block with-errors"></div>
+                        </div>
+                        <button type="submit" id="form-submit" class="btn btn-success btn-lg pull-right ">Enviar</button>
+                        <div id="msgSubmit" class="h3 text-center hidden"></div>
+                        <div class="clearfix"></div>
+                    </form>
+                    </div>
+                </div>
+                </div></div>
+            </div>
+          </div>
+        <!-- FIN SECCIÓN -->
+  
+  
     
       <!-- PIE DE PAGINA -->
       <div class="container-fluid footer">
